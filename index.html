@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Hello Top of Root</h1>
+
+    <div id="root">          <!-- React JS is working under the root or div because they are targetted in app.js-->       
+                    <!-- root.render isme jayega app.js se  because code goes line by line -->
+        <h1>Kaif is Here!</h1>            <!--  reload pe dikhega yeh Heading, replaced hoga simply  -->
+    </div>
+
+    <div id="header">
+        <h1>Kaif is Back!</h1>            
+    </div>
+
+    <h1>Hello Below of Root</h1>
+
+     <!-- this 2 lines are CDN links & it is very imp for inserting React code in Html -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>            <!-- React -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>    <!-- React-Dom -->
+
+    <script src="./App.js"> </script>                   <!-- yehi place p insert karna h file ko otherwise error ayega -->
+</body>
+</html> 
